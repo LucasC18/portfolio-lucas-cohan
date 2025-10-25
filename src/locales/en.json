@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "alt": "Full Stack Developer workspace",
+    "badge": "Open to Work",
+    "title": "Hi, I'm {{name}}",
+    "nameAccent": "",
+    "role": "JR. Full-Stack Developer",
+    "blurb": "Full Stack Developer in training, experienced in Node.js, SQL databases, and RESTful API development. Currently specializing in React and modern web technologies.",
+    "cta": { "viewWork": "View My Work", "getInTouch": "Get In Touch", "downloadCV": "Download CV" }
+  },
+  "about": {
+    "title": "About",
+  "me": "Me",
+  "subtitle": "Motivated developer focused on building efficient and scalable web applications.",
+  "bio": {
+    "p1": "I'm a Full Stack developer in training with a solid foundation in web technologies and software design.",
+    "p2": "I have practical experience developing RESTful APIs with Node.js and SQL databases, and I'm currently deepening my knowledge in React and modern frontend tools.",
+    "p3": "Always eager to learn and grow, I'm looking to contribute to innovative projects within a collaborative and dynamic team."
+    },
+    "highlights": {
+      "cleanCode": { "title": "Clean Code", "desc": "Writing maintainable, scalable and efficient code" },
+      "fastLearner": { "title": "Fast Learner", "desc": "Quickly adapt to new technologies and frameworks" },
+      "teamPlayer": { "title": "Team Player", "desc": "Collaborative mindset and solid communication" },
+      "quality": { "title": "Quality Focused", "desc": "Committed to high-quality solutions" }
+    }
+  },
+  "skills": {
+    "title": { "main": "Technical", "expertise": "Expertise" },
+    "subtitle": "Technical competencies applied to Full Stack web development, including frontend, backend, and database technologies.",
+    "alsoExperienced": "Also experienced with:"
+  },
+  "projects": {
+    "title": { "featured": "Featured", "projects": "Projects" },
+    "subtitle": "A showcase of my best work demonstrating full-stack capabilities",
+    "featuredBadge": "Featured",
+    "commits": "commits",
+    "btn": { "code": "Code", "live": "Live Demo", "viewAll": "View All on GitHub" },
+    "morePrompt": "Want to see more of my work?"
+  },
+  "contact": {
+    "title": { "lets": "Let's Work", "together": "Together" },
+    "subtitle": "Ready to bring your ideas to life? Let's discuss how I can help.",
+    "responseTime": "Response time: Usually within 24 hours",
+    "details": "Contact Details",
+    "email": { "label": "Email Address" },
+    "phone": { "label": "Phone Number" },
+    "location": { "label": "Location", "value": "Buenos Aires, Argentina", "note": "Open to remote work" },
+    "availability": { "label": "Availability", "value": "Immediate Start", "note": "Full-time & Contract" },
+    "openTo": {
+      "title": "Open to Opportunities",
+      "items": ["Full-time positions", "Contract/Freelance work", "Remote opportunities", "Open source collaboration"]
+    },
+    "form": {
+      "title": "Send Me a Message",
+      "subtitle": "Fill out the form below and I'll respond as soon as possible",
+      "name": { "label": "Your Name", "placeholder": "John Doe" },
+      "email": { "label": "Email Address", "placeholder": "john@example.com" },
+      "subject": { "label": "Subject", "placeholder": "What's this about?" },
+      "message": { "label": "Message", "placeholder": "Tell me about your project or opportunity..." },
+      "sending": "Sending...",
+      "send": "Send Message",
+      "disclaimer": "By submitting this form, you agree to be contacted regarding your inquiry."
+    },
+    "toast": { "success": { "title": "Message sent successfully!", "desc": "Thanks for reaching out! I'll get back within 24 hours." } }
+  },
+  "footer": {
+    "brandText": "Full-Stack Developer crafting modern web experiences with clean code and creative solutions.",
+    "cta": "Let's Connect",
+    "quickLinks": "Quick Links",
+    "techStack": "Tech Stack",
+    "connect": "Connect",
+    "copyrightName": "Lucas Emmanuel Cohan",
+    "rights": "All rights reserved.",
+    "builtWith": "Built",
+    "stackLine": "using React, TypeScript & Tailwind CSS",
+    "links": { "home": "Home", "about": "About", "skills": "Skills", "projects": "Projects", "contact": "Contact" }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "hireMe": "Contrátame"
+  },
+  "hero": {
+    "alt": "Espacio de trabajo de desarrollador Full Stack",
+    "badge": "Disponible para trabajar",
+    "title": "Hola, soy {{name}}",
+    "nameAccent": "",
+    "role": "Desarrollador JR. Full-Stack",
+    "blurb": "Desarrollador Full Stack en formación, con experiencia en Node.js, bases de datos SQL y desarrollo de APIs RESTful. En proceso de especialización en React y tecnologías web modernas.",
+    "cta": { "viewWork": "Ver mi trabajo", "getInTouch": "Contactarme", "downloadCV": "Descargar CV" }
+  },
+  "about": {
+    "title": "Sobre",
+  "me": "Mí",
+  "subtitle": "Desarrollador motivado, enfocado en crear aplicaciones web eficientes y escalables.",
+  "bio": {
+    "p1": "Soy un desarrollador Full Stack en formación con una base sólida en tecnologías web y diseño de software.",
+    "p2": "Tengo experiencia práctica desarrollando APIs RESTful con Node.js y bases de datos SQL, y actualmente profundizo mis conocimientos en React y herramientas modernas de frontend.",
+    "p3": "Con ganas de aprender y crecer, busco contribuir a proyectos innovadores dentro de un equipo colaborativo y dinámico."
+    },
+    "highlights": {
+      "cleanCode": { "title": "Clean Code", "desc": "Escribo código mantenible, escalable y eficiente." },
+      "fastLearner": { "title": "Aprendiz rápido", "desc": "Me adapto velozmente a nuevas tecnologías y frameworks." },
+      "teamPlayer": { "title": "Trabajo en equipo", "desc": "Mentalidad colaborativa y buena comunicación." },
+      "quality": { "title": "Enfoque en calidad", "desc": "Compromiso con soluciones de alta calidad." }
+    }
+  },
+  "skills": {
+    "title": { "main": "Experiencia", "expertise": "Técnica" },
+    "subtitle": "Competencias técnicas aplicadas en desarrollo web Full Stack, cubriendo frontend, backend y bases de datos.",
+    "alsoExperienced": "También con experiencia en:"
+  },
+  "projects": {
+    "title": { "featured": "Proyectos", "projects": "Destacados" },
+    "subtitle": "Una muestra de mi mejor trabajo demostrando capacidades full-stack",
+    "featuredBadge": "Destacado",
+    "commits": "commits",
+    "btn": { "code": "Código", "live": "Demo", "viewAll": "Ver todos en GitHub" },
+    "morePrompt": "¿Querés ver más de mi trabajo?"
+  },
+  "contact": {
+    "title": { "lets": "Trabajemos", "together": "Juntos" },
+    "subtitle": "¿Listo para llevar tus ideas a la realidad? Hablemos sobre cómo puedo ayudarte.",
+    "responseTime": "Tiempo de respuesta: usualmente dentro de 24 horas",
+    "details": "Datos de contacto",
+    "email": { "label": "Correo electrónico" },
+    "phone": { "label": "Teléfono" },
+    "location": { "label": "Ubicación", "value": "Buenos Aires, Argentina", "note": "Abierto a trabajo remoto" },
+    "availability": { "label": "Disponibilidad", "value": "Inicio inmediato", "note": "Full-time y contratos" },
+    "openTo": {
+      "title": "Abierto a oportunidades",
+      "items": ["Puestos full-time", "Contratos/Freelance", "Oportunidades remotas", "Colaboración en open source"]
+    },
+    "form": {
+      "title": "Enviame un mensaje",
+      "subtitle": "Completá el formulario y te responderé lo antes posible",
+      "name": { "label": "Tu nombre", "placeholder": "Juan Pérez" },
+      "email": { "label": "Correo electrónico", "placeholder": "juan@example.com" },
+      "subject": { "label": "Asunto", "placeholder": "¿De qué se trata?" },
+      "message": { "label": "Mensaje", "placeholder": "Contame sobre tu proyecto u oportunidad..." },
+      "sending": "Enviando...",
+      "send": "Enviar mensaje",
+      "disclaimer": "Al enviar este formulario, aceptás ser contactado respecto de tu consulta."
+    },
+    "toast": { "success": { "title": "¡Mensaje enviado!", "desc": "Gracias por escribir. Te responderé dentro de 24 horas." } }
+  },
+  "footer": {
+    "brandText": "Desarrollador Full-Stack creando experiencias web modernas con código limpio y soluciones creativas.",
+    "cta": "Conectemos",
+    "quickLinks": "Enlaces",
+    "techStack": "Stack",
+    "connect": "Conectar",
+    "copyrightName": "Lucas Emmanuel Cohan",
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Hecho",
+    "stackLine": "usando React, TypeScript y Tailwind CSS",
+    "links": { "home": "Inicio", "about": "Sobre mí", "skills": "Habilidades", "projects": "Proyectos", "contact": "Contacto" }
+  }
+}
