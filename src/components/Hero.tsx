@@ -2,10 +2,15 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail, Download } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
 import { useTranslation } from "react-i18next";
+// 🧠 NUEVO: importamos el Typewriter para el efecto de escritura
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   const { t } = useTranslation();
   const name = "Lucas Emmanuel Cohan";
+
+  // 👇 NUEVO: obtenemos el array de roles desde las traducciones (en o es)
+  const roles = t("hero.roles", { returnObjects: true }) as string[];
 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -42,11 +47,22 @@ const Hero = () => {
           <span className="text-gradient">{t("hero.nameAccent")}</span>
         </h1>
 
+        {/* 👇 Reemplazamos el texto fijo del rol por el Typewriter */}
         <p
           className="text-xl md:text-2xl text-muted-foreground mb-4 animate-fade-in-up"
           style={{ animationDelay: "0.4s" }}
         >
-          {t("hero.role")}
+          <span className="text-gradient font-semibold">
+            <Typewriter
+              words={roles} // las frases traducidas dinámicamente
+              loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={40}
+              delaySpeed={1500}
+            />
+          </span>
         </p>
 
         <p
@@ -87,7 +103,7 @@ const Hero = () => {
             asChild
           >
             <a
-              href="/cv\CV - Lucas Emmanuel Cohan.pdf"
+              href="/cv/CV - Lucas Emmanuel Cohan.pdf"
               download="LucasCohanCV.pdf"
               target="_blank"
               rel="noopener noreferrer"

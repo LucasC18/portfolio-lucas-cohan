@@ -11,7 +11,7 @@
     "badge": "Open to Work",
     "title": "Hi, I'm {{name}}",
     "nameAccent": "",
-    "role": "JR. Full-Stack Developer",
+    "roles": ["Cybersecurity Analyst", "Systems Analyst", "Junior Full-Stack Developer"],
     "blurb": "Full Stack Developer in training, experienced in Node.js, SQL databases, and RESTful API development. Currently specializing in React and modern web technologies.",
     "cta": { "viewWork": "View My Work", "getInTouch": "Get In Touch", "downloadCV": "Download CV" }
   },
@@ -44,6 +44,13 @@
     "btn": { "code": "Code", "live": "Live Demo", "viewAll": "View All on GitHub" },
     "morePrompt": "Want to see more of my work?"
   },
+  "portfolioProjects": {
+  "dailyTasks": {
+    "title": "Daily Tasks App",
+    "description": "Application to organize your daily tasks with a modern style, progress bar, and local storage.",
+    "longDescription": "A minimalist app built with HTML, TailwindCSS, and pure JavaScript. Lets you add, sort, and manage tasks with dynamic states and professional neon effects."
+  }
+},
   "contact": {
     "title": { "lets": "Let's Work", "together": "Together" },
     "subtitle": "Ready to bring your ideas to life? Let's discuss how I can help.",

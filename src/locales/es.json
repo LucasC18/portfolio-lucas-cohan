@@ -11,7 +11,7 @@
     "badge": "Disponible para trabajar",
     "title": "Hola, soy {{name}}",
     "nameAccent": "",
-    "role": "Desarrollador JR. Full-Stack",
+     "roles": ["Analista en Ciberseguridad", "Analista de Sistemas", "Desarrollador Junior Full Stack"],
     "blurb": "Desarrollador Full Stack en formación, con experiencia en Node.js, bases de datos SQL y desarrollo de APIs RESTful. En proceso de especialización en React y tecnologías web modernas.",
     "cta": { "viewWork": "Ver mi trabajo", "getInTouch": "Contactarme", "downloadCV": "Descargar CV" }
   },
@@ -44,6 +44,14 @@
     "btn": { "code": "Código", "live": "Demo", "viewAll": "Ver todos en GitHub" },
     "morePrompt": "¿Querés ver más de mi trabajo?"
   },
+  "portfolioProjects": {
+  "dailyTasks": {
+    "title": "Daily Tasks App",
+    "description": "Aplicación para organizar tus tareas diarias con estilo moderno, barra de progreso y almacenamiento local.",
+    "longDescription": "App minimalista creada con HTML, TailwindCSS y JavaScript puro. Permite agregar, ordenar y gestionar tareas con estados dinámicos y efectos neón profesionales."
+  }
+}
+,
   "contact": {
     "title": { "lets": "Trabajemos", "together": "Juntos" },
     "subtitle": "¿Listo para llevar tus ideas a la realidad? Hablemos sobre cómo puedo ayudarte.",

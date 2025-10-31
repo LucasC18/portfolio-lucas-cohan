@@ -66,16 +66,14 @@ const Projects = () => {
       stats: { stars: 52, commits: 198 },
     },
     {
-      title: "AI Chat Application",
-      description:
-        "Intelligent chatbot interface leveraging OpenAI API for natural conversations, context awareness, and multi-language support with conversation history.",
-      longDescription:
-        "Features include streaming responses, markdown support, code syntax highlighting, and conversation export functionality.",
-      tags: ["Next.js", "OpenAI", "TypeScript", "Tailwind", "Vercel"],
-      github: "https://github.com",
-      live: "https://example.com",
+      title: "Daily Tasks App",
+      description: t("portfolioProjects.dailyTasks.description"),
+      longDescription: t("portfolioProjects.dailyTasks.longDescription"),
+       tags: ["HTML", "JavaScript", "TailwindCSS", "LocalStorage"],
+      github: "https://github.com/LucasC18/DailyTaskProyect",
+      live: "https://lucasc18.github.io/DailyTaskProyect/",
       featured: true,
-      stats: { stars: 89, commits: 275 },
+      stats: { stars: 150, commits: 10 },
     },
     {
       title: "Portfolio CMS",
