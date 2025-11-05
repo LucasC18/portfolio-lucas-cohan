@@ -11,7 +11,7 @@
     "badge": "Open to Work",
     "title": "Hi, I'm {{name}}",
     "nameAccent": "",
-    "roles": ["Cybersecurity Analyst", "Systems Analyst", "Junior Full-Stack Developer"],
+    "roles": ["Systems Analyst", "Junior Full-Stack Developer"],
     "blurb": "Full Stack Developer in training, experienced in Node.js, SQL databases, and RESTful API development. Currently specializing in React and modern web technologies.",
     "cta": { "viewWork": "View My Work", "getInTouch": "Get In Touch", "downloadCV": "Download CV" }
   },
@@ -49,7 +49,11 @@
     "title": "Daily Tasks App",
     "description": "Application to organize your daily tasks with a modern style, progress bar, and local storage.",
     "longDescription": "A minimalist app built with HTML, TailwindCSS, and pure JavaScript. Lets you add, sort, and manage tasks with dynamic states and professional neon effects."
-  }
+  },
+    "portafolio": {
+      "description": "Personal website built to showcase my projects, skills, and experience as a web developer, featuring a modern design, smooth animations, and multilingual support.",
+      "longDescription": "Portfolio built with React, Vite, and TailwindCSS, focused on performance, responsive design, and user experience. It integrates i18next for dynamic content translation and Framer Motion for smooth animations. Projects are managed through a single configuration file, and the site is optimized for SEO with a clean and professional layout."
+    }
 },
   "contact": {
     "title": { "lets": "Let's Work", "together": "Together" },

@@ -17,7 +17,7 @@ const Projects = () => {
   const { t } = useTranslation();
 
   const projects: Project[] = [
-    {
+    /*   {
       title: "E-Commerce Platform",
       description:
         "Full-featured online store with shopping cart, secure payment processing via Stripe, order management, and comprehensive admin dashboard for inventory and sales analytics.",
@@ -64,28 +64,26 @@ const Projects = () => {
       live: "https://example.com",
       featured: false,
       stats: { stars: 52, commits: 198 },
-    },
+    }, */
     {
       title: "Daily Tasks App",
       description: t("portfolioProjects.dailyTasks.description"),
       longDescription: t("portfolioProjects.dailyTasks.longDescription"),
-       tags: ["HTML", "JavaScript", "TailwindCSS", "LocalStorage"],
+      tags: ["HTML", "JavaScript", "TailwindCSS", "LocalStorage"],
       github: "https://github.com/LucasC18/DailyTaskProyect",
       live: "https://lucasc18.github.io/DailyTaskProyect/",
       featured: true,
       stats: { stars: 150, commits: 10 },
     },
     {
-      title: "Portfolio CMS",
-      description:
-        "Content management system specifically designed for developers and creatives to showcase their work with customizable themes and SEO optimization.",
-      longDescription:
-        "Headless CMS architecture with REST API, markdown support, and built-in blog functionality.",
-      tags: ["React", "Node.js", "PostgreSQL", "GraphQL", "AWS"],
-      github: "https://github.com",
-      live: "https://example.com",
+      title: "Portafolio",
+      description: t("portfolioProjects.portafolio.description"),
+      longDescription: t("portfolioProjects.portafolio.longDescription"),
+      tags: ["React", "Vite", "TailwindCSS", "ShadCN/UI", "i18next", "TypeScript"],
+      github: "https://github.com/LucasC18/portfolio-lucas-cohan",
+      live: "https://lucasc18.github.io/",
       featured: false,
-      stats: { stars: 34, commits: 187 },
+      stats: { stars: 100, commits: 20 },
     },
   ];
 
@@ -199,7 +197,11 @@ const Projects = () => {
             className="border-primary/30 hover:bg-primary/10"
             asChild
           >
-            <a href="https://github.com/LucasC18" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/LucasC18"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="w-5 h-5 mr-2" />
               {t("projects.btn.viewAll")}
             </a>

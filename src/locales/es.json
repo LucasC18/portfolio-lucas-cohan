@@ -11,7 +11,7 @@
     "badge": "Disponible para trabajar",
     "title": "Hola, soy {{name}}",
     "nameAccent": "",
-     "roles": ["Analista en Ciberseguridad", "Analista de Sistemas", "Desarrollador Junior Full Stack"],
+     "roles": ["Analista de Sistemas", "Desarrollador Junior Full Stack"],
     "blurb": "Desarrollador Full Stack en formación, con experiencia en Node.js, bases de datos SQL y desarrollo de APIs RESTful. En proceso de especialización en React y tecnologías web modernas.",
     "cta": { "viewWork": "Ver mi trabajo", "getInTouch": "Contactarme", "downloadCV": "Descargar CV" }
   },
@@ -49,8 +49,13 @@
     "title": "Daily Tasks App",
     "description": "Aplicación para organizar tus tareas diarias con estilo moderno, barra de progreso y almacenamiento local.",
     "longDescription": "App minimalista creada con HTML, TailwindCSS y JavaScript puro. Permite agregar, ordenar y gestionar tareas con estados dinámicos y efectos neón profesionales."
-  }
+  },
+    "portafolio": {
+      "description": "Sitio personal desarrollado para mostrar mis proyectos, habilidades y experiencia como desarrollador web, con un diseño moderno, animaciones fluidas y soporte multilenguaje.",
+      "longDescription": "Portafolio creado con React, Vite y TailwindCSS, enfocado en la velocidad, el diseño responsivo y la experiencia del usuario. Integra i18next para la traducción dinámica de contenido y Framer Motion para animaciones suaves. Permite gestionar los proyectos desde un solo archivo de configuración y está optimizado para SEO, con un estilo limpio y profesional."
+    }
 }
+
 ,
   "contact": {
     "title": { "lets": "Trabajemos", "together": "Juntos" },
