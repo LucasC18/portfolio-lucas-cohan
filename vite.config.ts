@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'node:path'
 
 export default defineConfig({
-  base: "/portafolio-lucas-cohan/",
+  base: '/portfolio-lucas-cohan/', 
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,6 +11,4 @@ export default defineConfig({
       '@components': path.resolve(__dirname, './src/components'),
     },
   },
-  server: { host: '127.0.0.1', port: 8080 },
-  preview: { host: '127.0.0.1', port: 8080 },
 })

@@ -1,5 +1,14 @@
-import { createRoot } from "react-dom/client";
-import App from "./App.tsx";
-import "./index.css";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Index";
+import NotFound from "./pages/NotFound";
 
-createRoot(document.getElementById("root")!).render(<App />);
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  );
+}
+
+export default App;
