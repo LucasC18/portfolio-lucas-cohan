@@ -81,7 +81,7 @@ const Projects = () => {
       longDescription: t("portfolioProjects.portafolio.longDescription"),
       tags: ["React", "Vite", "TailwindCSS", "ShadCN/UI", "i18next", "TypeScript"],
       github: "https://github.com/LucasC18/portfolio-lucas-cohan",
-      live: "https://lucasc18.github.io/",
+      live: "https://lucasc18.github.io/portfolio-lucas-cohan/",
       featured: false,
       stats: { stars: 100, commits: 20 },
     },
