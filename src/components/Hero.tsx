@@ -103,7 +103,9 @@ const Hero = () => {
             asChild
           >
             <a
-              href="/cv/CV - Lucas Emmanuel Cohan.pdf"
+              href={`${
+                import.meta.env.BASE_URL
+              }cv/CV - Lucas Emmanuel Cohan.pdf`}
               download="LucasCohanCV.pdf"
               target="_blank"
               rel="noopener noreferrer"
