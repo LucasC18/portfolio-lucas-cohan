@@ -1,14 +1,10 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Index";
-import NotFound from "./pages/NotFound";
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
-  );
-}
-
-export default App;
+createRoot(document.getElementById("root") as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
