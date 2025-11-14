@@ -96,24 +96,24 @@ const Hero = () => {
             {t("hero.cta.getInTouch")}
           </Button>
 
-          {/* 📄 Descargar CV */}
-          <Button
-            size="lg"
-            className="bg-gradient-to-r from-green-500 to-emerald-600 hover:opacity-90 transition-opacity"
-            asChild
-          >
-            <a
-              href={`${
-                import.meta.env.BASE_URL
-              }cv/CV - Lucas Emmanuel Cohan.pdf`}
-              download="LucasCohanCV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Download className="w-5 h-5 mr-2" />
-              {t("hero.cta.downloadCV")}
-            </a>
-          </Button>
+{/*
+📄 Descargar CV
+<Button
+  size="lg"
+  className="bg-gradient-to-r from-green-500 to-emerald-600 hover:opacity-90 transition-opacity"
+  asChild
+>
+  <a
+    href={`${import.meta.env.BASE_URL}cv/CV - Lucas Emmanuel Cohan.pdf`}
+    download="LucasCohanCV.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Download className="w-5 h-5 mr-2" />
+    {t("hero.cta.downloadCV")}
+  </a>
+</Button>
+*/}
         </div>
 
         {/* Redes sociales */}
